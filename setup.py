@@ -9,6 +9,7 @@ def get_requirements(file_path:str)->List[str]:
         
         if HYPHEN_E_DOT in req:
             req.remove(HYPHEN_E_DOT)
+            
     return req
 
 
